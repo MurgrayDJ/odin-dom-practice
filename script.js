@@ -20,3 +20,14 @@ const heading3 = document.createElement('h3');
 heading3.textContent = "I'm a blue h3!";
 heading3.style.color = 'blue';
 document.body.appendChild(heading3);
+
+//Question 3
+const divContainer = document.createElement('div');
+divContainer.style.borderStyle = 'solid';
+divContainer.style.backgroundColor = 'pink';
+document.body.appendChild(divContainer);
+
+//------3.1
+const heading1 = document.createElement('h1');
+heading1.textContent = "I'm in a div";
+divContainer.appendChild(heading1);
