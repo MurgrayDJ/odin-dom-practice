@@ -31,3 +31,8 @@ document.body.appendChild(divContainer);
 const heading1 = document.createElement('h1');
 heading1.textContent = "I'm in a div";
 divContainer.appendChild(heading1);
+
+//------3.2
+const paragraph2 = document.createElement('p');
+paragraph2.textContent = "ME TOO!";
+divContainer.appendChild(paragraph2);
